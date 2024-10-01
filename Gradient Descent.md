@@ -17,9 +17,9 @@ Gradient descent can be applied to linear regression. In linear regression, the 
 $$
 \begin{gather}
 f_w(x) = wx \\
-w = w - \alpha \frac{\partial}{\partial w} (\frac{1}{2m} \sum^m_{i=1}{y^{(i)} - f_w(x^{(i)}) )^2} \\
+w = w - \alpha \frac{\partial}{\partial w} \Big(\frac{1}{2m} \sum^m_{i=1}{y^{(i)} - f_w(x^{(i)}) \Big)^2} \\
 \text{where}\\
-\frac{\partial}{\partial w} J(w) = \sum^m_{i=1}{(y^{(i)}- f_w(x^{(i)}))x^{(i)}}\\
+\frac{\partial}{\partial w} J(w) = \sum^m_{i=1}{\Big(y^{(i)}- f_w(x^{(i)})\Big)x^{(i)}}\\
 \end{gather}
 $$
 
