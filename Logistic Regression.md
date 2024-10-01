@@ -1,5 +1,5 @@
 
-Logistic regression is a supervised learning method used for classification problems. Unlike with linear regression, logistic regression is modeled by the [[Sigmoid Function]]. 
+Logistic regression is a supervised learning method used for classification problems. Unlike with linear regression, logistic regression is modeled by the Sigmoid Function. 
 
 $$
 f_{w,b}(x) = \frac{1}{1+e^{-f_(x)}}
@@ -19,14 +19,14 @@ $$
 \frac{f(x)}{1-f(x)}=e^{wx+b}
 $$
 
-The [[Odds Ratio]] is defined as
+The Odds Ratio is defined as
 
 $$
 OR=\frac{odds(x+1)}{odds(x)}=\frac{\frac{f(x+1)}{1-f(x+1)}}{\frac{f(x)}{1-f(x)}}=\frac{e^{w(x+1)+b}}{e^{wx+b}}
 $$
 
 
-The [[cost function]], or goodness-of-fit, for logistic regression uses the log function and is called the log loss function, which is the [[Negative Log-Likelihood]].
+The cost function, or goodness-of-fit, for logistic regression uses the log function and is called the log loss function, which is the Negative Log-Likelihood.
 
 $$
 L(f_{w,b}(x^{(i)},y^{(i)}))= 
@@ -42,11 +42,9 @@ $$
 L(f_{w,b}(x^{(i)}))=-y^{(i)}log(f(x))-(1-y^{(i)})log(1-f(x))
 $$
 
-The best fit is obtained when $-L(f_{w,b})$ is minimized. Alternatively, one could maximize the inverse, its positive log-likelihood. This is known as the maximum likelihood estimation, or [[MLE]].
+The best fit is obtained when $-L(f_{w,b})$ is minimized. Alternatively, one could maximize the inverse, its positive log-likelihood. This is known as the maximum likelihood estimation, or MLE.
 
 $$
 L(f(x)) = \prod_{y^{(i)}=1}=1{f(x))} \prod_{y^{(i)}=0}{(1-f(x))}
 $$
 
-### Decision Boundary 
-https://community.deeplearning.ai/t/derivation-of-dl-dz/165
