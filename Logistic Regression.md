@@ -1,7 +1,3 @@
----
-topic: Logistic Regression
----
-tags: [[01. second brain/3 - tags/logistic regression|logistic regression]] [[cost function]] 
 
 Logistic regression is a supervised learning method used for classification problems. Unlike with linear regression, logistic regression is modeled by the [[Sigmoid Function]]. 
 
